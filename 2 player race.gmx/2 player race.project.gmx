@@ -4,11 +4,16 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_blue</sprite>
     <sprite>sprites\spr_red</sprite>
     <sprite>sprites\maze_block</sprite>
+    <sprite>sprites\spr_star</sprite>
+    <sprite>sprites\maze_rock</sprite>
+    <sprite>sprites\maze_cloud</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -16,9 +21,12 @@
     <object>objects\object0</object>
     <object>objects\object2</object>
     <object>objects\object3</object>
+    <object>objects\object4</object>
+    <object>objects\object5</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\the_maze</room>
+    <room>rooms\the_volcano</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
