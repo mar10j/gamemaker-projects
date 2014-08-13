@@ -9,14 +9,22 @@
     <sprite>sprites\spr_shooter</sprite>
     <sprite>sprites\spr_2</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\srp_evil</sprite>
+    <sprite>sprites\spr_play</sprite>
+    <sprite>sprites\spr_quit</sprite>
+    <sprite>sprites\sprite6</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_shooter</object>
     <object>objects\object1</object>
+    <object>objects\object2</object>
+    <object>objects\object3</object>
+    <object>objects\object4</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Main_Menu</room>
     <room>rooms\main</room>
   </rooms>
   <help>
